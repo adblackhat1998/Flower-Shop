@@ -5,7 +5,7 @@
 
 .header {
     background-color: rgba(229, 84, 115, 0.10);
-    padding: 100px;
+
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -30,11 +30,32 @@
 
 }
 
+.featured {
+    padding: 30px 20px;
+    max-width: 1440px;
+    margin: 30px auto;
+}
 
+.items {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.item {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+}
 
+.item-img {
+    text-align: center;
+}
 
-
+.item-img img {
+    margin-top: 110px;
+}
 
 
 
@@ -47,4 +68,22 @@
     border-radius: 8px;
     font-weight: 700;
     font-size: 20px;
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 8px;
+
+
+
 }

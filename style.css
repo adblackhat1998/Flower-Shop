@@ -1,3 +1,50 @@
-body {
+* {
     font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
+
+.header {
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.header-title {
+    max-width: 708px;
+    font-size: 80px;
+    color: #272727;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.header-description {
+    max-width: 634px;
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+/* shared style  */
+.btn-primary {
+    background-color: #E55473;
+    border: 0;
+    padding: 20px 43px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 20px;
 }

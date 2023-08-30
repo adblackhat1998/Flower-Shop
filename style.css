@@ -77,11 +77,26 @@
 
 }
 
+
+
 .service {
     text-align: center;
 }
 
+.hot-deal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 30px 40px;
+}
+
 /* shared style  */
+.primary-color {
+    color: #E55473;
+}
+
 .btn-primary {
     background-color: #E55473;
     border: 0;

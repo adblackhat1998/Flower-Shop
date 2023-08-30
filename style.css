@@ -3,6 +3,8 @@
     margin: 0px;
 }
 
+
+/* header section styles  */
 .header {
     background-color: rgba(229, 84, 115, 0.10);
 
@@ -29,6 +31,10 @@
     margin-bottom: 20px;
 
 }
+
+/* main section style  */
+
+/* featurd section styles  */
 
 .featured {
     padding: 30px 20px;
@@ -66,6 +72,7 @@
     margin-top: 8px;
 }
 
+/* services section style  */
 .services {
     margin-top: 100px;
     display: flex;
@@ -83,6 +90,8 @@
     text-align: center;
 }
 
+/* hot deal section styles  */
+
 .hot-deal {
     display: flex;
     align-items: center;
@@ -91,6 +100,8 @@
     background: rgba(229, 84, 115, 0.05);
     padding: 30px 40px;
 }
+
+/* insta section styles  */
 
 .instagram {
     max-width: 1440px;
@@ -105,6 +116,7 @@
     margin-top: 20px;
 }
 
+/* latest deal styles  */
 
 .latest-deal {
     background-image: url("Flower Asset/Rectangle\ 9.png");
@@ -124,6 +136,17 @@
     border: 0;
     margin-right: 8px;
 }
+
+
+/* footer style  */
+.footer {
+    background-color: #111010;
+    padding: 100px 80px;
+}
+
+
+
+
 
 /* shared style  */
 .primary-color {
@@ -156,4 +179,11 @@
 
 
 
+}
+
+.footer-description {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
 }
